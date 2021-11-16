@@ -1,18 +1,55 @@
-p {
-    color: cadetblue;
-    font-size: 40px;
+body {
+    background-color: wheat;
+}
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgba(15, 112, 150, 1);
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: aliceblue;
+    padding: 50px;
+    border-radius: 2px;
+    font-family: arial, bold;
+    text-decoration: none;
+    font-size: 35px;
+}
+.main-nav__item a:hover {
+    /* pseudo clase para cuando el mause pase por encima de un objeto*/
+    color: orange;
+    font-size: 37px;
+}
+.main-nav__item a:active {
+    /* pseudo clase para cuando el mause pase por encima de un objeto*/
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+.main-nav__item a::after {
+    /* pseudo clase para cuando el mause pase por encima de un objeto*/
+    content: '  |  ';
+}
+.main-nav__item a::before {
+    /* pseudo clase para cuando el mause pase por encima de un objeto*/
+    content: '  |  ';
+}
+#titulo {
+    color: rgb(41, 120, 122);
+    font-size: 100px;
     font-family: fantasy;
+    text-align: center;
 }
 /* class */
-.parrafo {
+#lista1 {
     color: goldenrod;
-    font-size: 100;
-    font-family: fantasy;
+    font-size: 60px;
+    font-family: sans-serif;
 }
-/* ids */
-
-#parrafo1 {
-    color: navy;
-    font-size: 20;
+#lista2 {
+    color: yellowgreen;
+    font-size: 40px;
     font-family: sans-serif;
 }
