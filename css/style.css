@@ -1,3 +1,9 @@
+/*para que el borde encaje con el tamaño de la pagina y no se aga scroll de lado*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
     background-color: wheat;
 }
@@ -6,6 +12,7 @@ body {
     list-style: none;
     padding-left: 0;
     background-color: rgba(15, 112, 150, 1);
+    border-radius: 25px;
 }
 .main-nav__item {
     display: inline-block;
