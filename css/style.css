@@ -12,43 +12,17 @@ html {
 body {
     background-color: rgb(28, 30, 43);
 }
-
-.box {
-    text-align: center;
-    background-color: whitesmoke;
-    width: 600px;
-    height: 500px;
-    margin: 60px auto;
-    border-radius: 10px;
-}
-#one {
+.header {
     background-color: brown;
-    width: 300px;
-    height: 50px;
-    position: relative;
-    margin-bottom: -85px;
-    text-align: center;
-    font-family: serif;
-    color: whitesmoke;
-    font-size: 1.5rem;
-    border: 3px solid white;
 }
-
-#two {
-    color: black;
-    font-size: 2rem;
-    border: 5px solid orange;
+.main {
+    background-color: burlywood;
 }
-#two img {
-    padding-top: 1500;
-    display: block;
-    margin: auto;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    top: 50px;
-    border-radius: 60px;
+#seccion1 {
+    background-color: brown;
 }
-.imagen {
-    margin-bottom: 40px;
+#seccion2 {
+}
+#seccion1 div {
+    background-color: aliceblue;
 }
