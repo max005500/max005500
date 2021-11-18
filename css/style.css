@@ -47,6 +47,7 @@ body {
     height: 300px;
     position: relative;
     top: 50px;
+    border-radius: 60px;
 }
 .imagen {
     margin-bottom: 40px;
