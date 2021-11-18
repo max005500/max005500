@@ -11,37 +11,22 @@ html {
 body {
     background-color: rgb(28, 30, 43);
 }
-main {
-    width: 20vw;
-    height: 20vh;
+
+.box {
+    text-align: center;
+    background-color: whitesmoke;
+    width: 600px;
+    height: 500px;
+    margin: 60px auto;
+    border-radius: 40px;
 }
-.main-nav {
-    margin-top: 0vh;
-    list-style: none;
-    padding-left: 0vw;
-    padding-bottom: 2px;
-    border-bottom: 3px solid palevioletred;
-    background-color: brown;
+#one {
 }
-.main-nav__item {
-    display: inline-block;
+#two {
 }
-.main-nav__item a {
-    color: aliceblue;
-    padding: 125px;
-    font-family: Impact, 'Arial Bold', sans-serif;
-    text-decoration: none;
-    font-size: 3.5rem;
-    border-left: 3px solid aliceblue;
-    padding-bottom: 0px;
-}
-.main-nav__item a:hover {
-    /* pseudo clase para cuando el mause pase por encima de un objeto*/
-    color: orange;
-    font-size: 3.7rem;
-}
-.main-nav__item a:active {
-    /* pseudo clase para cuando el mause pase por encima de un objeto*/
-    color: rgb(255, 0, 0);
-    font-size: 3rem;
+#two figure {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
 }
