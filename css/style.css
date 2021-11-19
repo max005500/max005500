@@ -9,20 +9,45 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    background-color: rgb(28, 30, 43);
-}
 .header {
     background-color: brown;
+    width: 100%;
+    height: 13vh;
 }
 .main {
-    background-color: burlywood;
+    width: 100%;
+    height: 74vh;
+    display: inline-flex;
 }
+
+.footer {
+    background-color: black;
+    padding-top: 0px;
+    margin-top: -0.2vh;
+    width: 100%;
+    height: 13vh;
+}
+
 #seccion1 {
-    background-color: brown;
-}
-#seccion2 {
+    background-color: rgb(233, 230, 184);
+    width: 20vw;
+    height: 100%;
 }
 #seccion1 div {
-    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 1vh auto;
+    width: 19vw;
+    height: 17vh;
+    background-color: crimson;
+}
+#seccion2 {
+    background-color: rgb(28, 30, 43);
+    width: 80vw;
+    height: 100%;
+    font-size: 4.5rem;
+    font-family: arial, bold;
+    color: white;
+}
+#seccion2 div {
+    margin-left: 2vw;
 }
