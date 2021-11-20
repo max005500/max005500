@@ -7,51 +7,112 @@
 
 html {
     font-size: 62.5%;
+    font-family: Arial, sans-serif;
 }
 
-.header {
-    background-color: brown;
-    width: 100%;
-    height: 13vh;
+header {
+    padding: 2vh 1vw;
+    height: 60px;
 }
-.main {
-    width: 100%;
-    height: 74vh;
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-nav {
     display: flex;
+    justify-content: flex-end;
 }
-
-.footer {
-    background-color: black;
-    padding-top: 0px;
-    width: 100%;
-    height: 13vh;
-}
-
-#seccion1 {
-    background-color: rgb(233, 230, 184);
-    width: 20vw;
-    height: 100%;
+.header-nav__item {
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    list-style: none;
+    font-size: 1.4rem;
 }
-#seccion1 div {
-    width: 19vw;
-    height: 17vh;
-    background-color: crimson;
-    border-radius: 11px;
+.header-nav__item a {
+    margin-left: 1vw;
+    color: black;
 }
-#seccion2 {
-    background-color: rgb(28, 30, 43);
-    width: 80vw;
-    height: 100%;
-    font-size: 4.5rem;
-    font-family: arial, bold;
-    color: white;
+nav .header-nav__item .icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-left: 1vw;
+}
+nav .header-nav__item img {
+    border-radius: 100%;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+.main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-logo img {
+    width: 300px;
+}
+.main-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    border: 1px solid gray;
+    border-radius: 100px;
+
+    width: 50vw;
 
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+}
+main .main-input input {
+    width: 85%;
+    height: 7vh;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 black;
+}
+.searshicon {
+    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    opacity: 0.4;
+}
+.micro-icon img {
+    width: 21px;
+}
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 1.4rem;
+    color: #5f6365;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #000001;
 }
