@@ -1,118 +1,118 @@
 /*para que el borde encaje con el tamaño de la pagina y no se aga scroll de lado*/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: Arial, sans-serif;
+  font-size: 62.5%;
+  font-family: Arial, sans-serif;
 }
 
 header {
-    padding: 2vh 1vw;
-    height: 60px;
+  padding: 2vh 1vw;
+  height: 60px;
 }
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 .header-nav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .header-nav__item {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    font-size: 1.4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  font-size: 1.4rem;
 }
 .header-nav__item a {
-    margin-left: 1vw;
-    color: black;
+  margin-left: 1vw;
+  color: black;
 }
 nav .header-nav__item .icon {
-    background-image: url('https://static.thenounproject.com/png/756729-200.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 25px;
-    height: 25px;
-    margin-left: 1vw;
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-left: 1vw;
 }
 nav .header-nav__item img {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 main {
-    margin-top: 150px;
-    text-align: center;
+  margin-top: 150px;
+  text-align: center;
 }
 .main-logo {
-    width: 530px;
-    margin: 0 auto;
-    margin-bottom: 35px;
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
 .main-logo img {
-    width: 300px;
+  width: 300px;
 }
 .main-input {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
 }
 main .main-input-container {
-    border: 1px solid gray;
-    border-radius: 100px;
+  border: 1px solid gray;
+  border-radius: 100px;
 
-    width: 50vw;
+  width: 50vw;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main .main-input input {
-    width: 85%;
-    height: 7vh;
-    border: none;
-    outline: none;
+  width: 85%;
+  height: 7vh;
+  border: none;
+  outline: none;
 }
 main .main-input-container:hover {
-    box-shadow: 0 1px 6px 0 black;
+  box-shadow: 0 1px 6px 0 black;
 }
 .searshicon {
-    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-    opacity: 0.4;
+  background-image: url("https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  opacity: 0.4;
 }
 .micro-icon img {
-    width: 21px;
+  width: 21px;
 }
 main .main-buttons {
-    width: 530px;
-    margin: 0 auto;
+  width: 530px;
+  margin: 0 auto;
 }
 main .main-buttons div {
-    display: inline-block;
+  display: inline-block;
 }
 main .main-buttons button {
-    height: 36px;
-    background-color: #f2f2f2;
-    border: 0;
-    font-size: 1.4rem;
-    color: #5f6365;
-    border-radius: 5px;
-    padding: 0 15px;
-    margin-right: 15px;
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 1.4rem;
+  color: #5f6365;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-right: 15px;
 }
 main .main-buttons button:hover {
-    border: 1px solid #c6c6c6;
-    box-shadow: 0 1px 1px #000001;
-    color: #000001;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px #000001;
+  color: #000001;
 }
