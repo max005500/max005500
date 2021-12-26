@@ -1,15 +1,14 @@
 /*para que el borde encaje con el tamaño de la pagina y no se aga scroll de lado*/
-:root{
-  --bitcoin-oranje : #f7931a;
-  --soft-oranje : #ffe9d5;
-  --secondary-blue : #1a9af7;
+:root {
+  --bitcoin-oranje: #f7931a;
+  --soft-oranje: #ffe9d5;
+  --secondary-blue: #1a9af7;
   --soft-blue: #e7f5ff;
-  --warm-black: #201e1c
-  --grey: #bababa
-  --black: #282623
-  --off-white: #faf8f7
-  --just-white: #fff
-
+  --warm-black: #201e1c;
+  --grey: #bababa;
+  --black: #282623;
+  --off-white: #faf8f7;
+  --just-white: #fff;
 }
 
 * {
