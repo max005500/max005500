@@ -20,16 +20,18 @@ html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
 }
-header {
-  position: relative;
+.general-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   min-width: 320px;
-  height: 334px;
   text-align: center;
+  position: relative;
+}
+.general-container--header {
   background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  height: 334px;
 }
 header img {
   width: 150px;
@@ -37,7 +39,10 @@ header img {
   margin-top: 60px;
   align-self: center;
 }
-.header--title-container {
+
+/* text config */
+
+.general-text-container {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
@@ -46,15 +51,65 @@ header img {
   text-align: center;
   align-self: center;
 }
-.header--title-container h1 {
+.general-text--title {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--just-white);
 }
-.header--title-container p {
+.general-text--text {
   margin-top: 25px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
+}
+
+/* color text */
+
+.text-white {
+  color: var(--just-white);
+}
+.text-soft-orange {
+  color: var(--soft-oranje);
+}
+.text-gray {
+  color: #757575;
+}
+
+.header--button {
+  position: absolute;
+  left: calc(50% - 114.5px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  /* sombra */
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--black);
+}
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("../assets/icons/down-arrow.svg");
+}
+.main-exchange-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-exchange--img {
+  width: 195px;
+  height: 195px;
+  padding-top: 200px;
+  margin: 59px auto 0px;
+  background-image: url("../assets/img/Bitcoin.svg");
 }
