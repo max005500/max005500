@@ -65,6 +65,15 @@ I enjoy building systems from low-level hardware and algorithms to high-level so
 
 ## 📚 Research & Publications
 
+## 🔬 Research Affiliation
+
+### Optolab — Optoelectronics Laboratory
+
+**Research Team Member | Pontificia Universidad Católica de Valparaíso (PUCV), Chile**
+
+Member of the research team at **Optolab**, working on optoelectronics, neuromorphic vision, atmospheric turbulence characterization, and computational optical sensing.
+
+🌐 **Research Team:** [Optolab — Team Members](https://qommtrue.cl/optolab/equipo/)
 ## 🔬 Research Projects
 
 ### QOMMTRUE
