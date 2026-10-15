@@ -69,7 +69,7 @@ I enjoy building systems from low-level hardware and algorithms to high-level so
 
 ### Optolab — Optoelectronics Laboratory
 
-**Research Team Member | Pontificia Universidad Católica de Valparaíso (PUCV), Chile**
+**Research Team Member**
 
 Member of the research team at **Optolab**, working on optoelectronics, neuromorphic vision, atmospheric turbulence characterization, and computational optical sensing.
 
