@@ -65,9 +65,43 @@ I enjoy building systems from low-level hardware and algorithms to high-level so
 
 ## 📚 Research & Publications
 
-I am interested in research that bridges theoretical models with practical implementations, particularly in neuromorphic engineering, optoelectronics, sensing technologies, and artificial intelligence.
+## 🔬 Research Projects
 
-This section will highlight selected publications, experimental projects, and technical reports.
+### QOMMTRUE
+**Smart Adaptive Optics for Quantum and Classical Communications through the Atmosphere**
+
+`ANID ETE250061` · **Researcher**
+
+Research project focused on AI-driven adaptive optics for classical and quantum free-space optical communications.
+
+🌐 **Project Website:** [qommtrue.cl](https://qommtrue.cl)
+
+### SEETRUE
+**Sharp Wavefront Sensing for Adaptive Optics in Ground-Based Satellite Communications and Space Surveillance**
+
+`ANID ATE220022` · **Undergraduate Researcher (2023–2025)**
+
+Contributed to the investigation of event-based cameras for atmospheric turbulence profiling and neuromorphic optical sensing.
+
+---
+
+## 📚 Scientific Publications
+
+**2026**
+
+- **Development of an Event-Based Shack-Hartmann Image Monitor**  
+  *Proceedings of SPIE*  
+  [![DOI](https://img.shields.io/badge/DOI-10.1117%2F12.3105374-blue)](https://doi.org/10.1117/12.3105374)
+
+**2025**
+
+- **Boundary-Layer Turbulence Characterization Using Neuromorphic Cameras and Passive Targets in Optical Ground Stations**  
+  *Proceedings of SPIE*  
+  [![DOI](https://img.shields.io/badge/DOI-10.1117%2F12.3069546-blue)](https://doi.org/10.1117/12.3069546)
+
+- **Advancing Atmospheric Boundary Layer Turbulence Monitoring Through High-Temporal-Resolution Neuromorphic Vision**  
+  *Optica Publishing Group*  
+  [![DOI](https://img.shields.io/badge/DOI-10.1364%2FPCAOP.2025.PTu1E.3-blue)](https://doi.org/10.1364/PCAOP.2025.PTu1E.3)
 
 ## 🤝 Collaboration & Contact
 
