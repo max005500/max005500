@@ -112,6 +112,34 @@ Contributed to the investigation of event-based cameras for atmospheric turbulen
   *Optica Publishing Group*  
   [![DOI](https://img.shields.io/badge/DOI-10.1364%2FPCAOP.2025.PTu1E.3-blue)](https://doi.org/10.1364/PCAOP.2025.PTu1E.3)
 
+## 💻 Featured Repositories
+
+A selection of my projects showcasing my work in **computational optics, machine learning, computer vision, and neuromorphic sensing**.
+
+### Personal Projects
+
+**[OpticalSimulator](https://github.com/max005500/OpticalSimulator)**  
+Computational optics simulator for atmospheric turbulence modeling, wavefront propagation, and Shack-Hartmann wavefront sensing.
+
+`Python` `NumPy` `SciPy` `HCIPy` `Jupyter`
+
+**[ProyectosDeEstudio](https://github.com/max005500/ProyectosDeEstudio)**  
+Collection of machine learning, deep learning, data analysis, and computer vision experiments, including clustering, neural networks, and object detection.
+
+`Python` `Machine Learning` `PyTorch` `YOLO` `Jupyter`
+
+**[EventCameraGUI](https://github.com/max005500/EventCameraGUI)**  
+Desktop application for real-time event camera visualization, acquisition, and recording, integrating neuromorphic-drivers and Faery.
+
+`Python` `Flet` `Event-Based Vision` `Neuromorphic Cameras`
+
+### Open-Source Contributions
+
+**[neuromorphic-drivers](https://github.com/neuromorphicsystems/neuromorphic-drivers)** — Contributor  
+Open-source Python and Rust libraries for real-time interaction with event-based cameras and neuromorphic vision sensors.
+
+`Rust` `Python` `Event Cameras` `Open Source`
+
 ## 🤝 Collaboration & Contact
 
 I'm interested in collaborating on research and open-source projects related to:
