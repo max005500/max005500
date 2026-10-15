@@ -78,7 +78,7 @@ I'm interested in collaborating on research and open-source projects related to:
 - Machine Learning and embedded AI
 - Scientific computing and efficient software architectures
 
-**GitHub:** [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+**GitHub:** [@max005500](https://github.com/max005500)
 
 **Location:** Chile 🇨🇱
 
